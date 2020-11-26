@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Iamaliev</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__row">
+        <a href="/" class="header__logo">
+          <img src="img/logo.png" alt="">
+        </a>
+        <div class="header__burger">
+          <span></span>
+        </div>
+        <ul class="header__navbar">
+          <li>
+            <a href="#">Главная</a>
+          </li>
+          <li>
+            <a href="#">Каталог</a>
+          </li>
+          <li>
+            <a href="#">Акции</a>
+          </li>
+          <li>
+            <a href="#">О компании</a>
+          </li>
+        </ul>
+        <div class="header__contacts">
+          <a href="tel:+123456789" class="header__contacts-phone">+123 456 78 90</a>
+          <div class="header__contacts-text">Звони скорее!</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="content">
+    <div class="content__head">
+      <div class="content__head-image content__head-image_desc" style="background-image: url(img/header-img.png)"></div>
+      <div class="content__head-image content__head-image_mob" style="background: #1F2021"></div>
+      <div class="container">
+        <h1 class="content__head-title">
+          Лучшие корабли в Галактике
+        </h1>
+      </div>
+    </div>
+    <div class="catalog">
+      <div class="container">
+        <div class="filter">
+          <div class="filter__text">Сортировать по:</div>
+          <a href="#" class="filter__item js-filter-price">
+            <span class="filter__item-text">Цене</span>
+            <span class="filter__item-arrow" style="background-image: url(img/arrow.svg)"></span>
+          </a>
+          <a href="#" class="filter__item js-filter-age">
+            <span class="filter__item-text">Пробегу</span>
+            <span class="filter__item-arrow" style="background-image: url(img/arrow.svg)"></span>
+          </a>
+        </div>
+        <div class="catalog__list">
+          <div class="catalog__item">
+            <div class="product" id="1">
+              <div class="product__sale">-40%</div>
+              <a class="product__favorite"></a>
+              <div class="product__image" style="background-image: url(img/eta2.png)"></div>
+              <div class="product__content">
+                <div class="product__title">Эта-2</div>
+                <div class="characteristics product__info">
+                  <div class="characteristics__item characteristics__item_color">
+                    <div class="characteristics__item-value" style="background: #FB4B54;"></div>
+                    <div class="characteristics__item-type"><div>Республиканский</div><div> флот</div></div>
+                  </div>
+                  <div class="characteristics__item">
+                    <div class="characteristics__item-value characteristics__item-value_age">7 парсек</div>
+                    <div class="characteristics__item-type">Пробег</div>
+                  </div>
+                  <div class="characteristics__item">
+                    <div class="characteristics__item-value">1</div>
+                    <div class="characteristics__item-type">Кол-во мест</div>
+                  </div>
+                </div>
+                <div class="product__price">35 000 руб.</div>
+              </div>
+              <a href="#" class="product__button">Купить</a>
+            </div>
+          </div>
+          <div class="catalog__item">
+            <div class="product" id="2">
+              <a class="product__favorite product__favorite_active"></a>
+              <div class="product__image" style="background-image: url(img/xwing.jpg)"></div>
+              <div class="product__content">
+                <div class="product__title">X-Wing</div>
+                <div class="characteristics product__info">
+                  <div class="characteristics__item characteristics__item_color">
+                    <div class="characteristics__item-value" style="background: #FB4B54;"></div>
+                    <div class="characteristics__item-type"><div>Повстанченский</div><div> флот</div></div>
+                  </div>
+                  <div class="characteristics__item">
+                    <div class="characteristics__item-value characteristics__item-value_age">2 парсек</div>
+                    <div class="characteristics__item-type">Пробег</div>
+                  </div>
+                  <div class="characteristics__item">
+                    <div class="characteristics__item-value">2</div>
+                    <div class="characteristics__item-type">Кол-во мест</div>
+                  </div>
+                </div>
+                <div class="product__price">34 000 руб.</div>
+              </div>
+              <a href="#" class="product__button">Купить</a>
+            </div>
+          </div>
+          <div class="catalog__item">
+            <div class="product" id="3">
+              <div class="product__sale">-40%</div>
+              <a class="product__favorite"></a>
+              <div class="product__image" style="background-image: url(img/tie.jpg)"></div>
+              <div class="product__content">
+                <div class="product__title">TIE-истребитель</div>
+                <div class="characteristics product__info">
+                  <div class="characteristics__item characteristics__item_color">
+                    <div class="characteristics__item-value" style="background: #000;"></div>
+                    <div class="characteristics__item-type"><div>Имперский</div><div> флот</div></div>
+                  </div>
+                  <div class="characteristics__item">
+                    <div class="characteristics__item-value characteristics__item-value_age">9 парсек</div>
+                    <div class="characteristics__item-type">Пробег</div>
+                  </div>
+                  <div class="characteristics__item">
+                    <div class="characteristics__item-value">1</div>
+                    <div class="characteristics__item-type">Кол-во мест</div>
+                  </div>
+                </div>
+                <div class="product__price">37 000 руб.</div>
+              </div>
+              <a href="#" class="product__button product__button_sales">Продан</a>
+            </div>
+          </div>
+          <div class="catalog__item">
+            <div class="product" id="4">
+              <div class="product__sale">-40%</div>
+              <a class="product__favorite product__favorite_active"></a>
+              <div class="product__image" style="background-image: url(img/falkon.jpg)"></div>
+              <div class="product__content">
+                <div class="product__title">Cокол тысячелетия</div>
+                <div class="characteristics product__info">
+                  <div class="characteristics__item characteristics__item_color">
+                    <div class="characteristics__item-value" style="background: #FB4B54;"></div>
+                    <div class="characteristics__item-type"><div>Корабль</div><div> контрабандистов</div></div>
+                  </div>
+                  <div class="characteristics__item">
+                    <div class="characteristics__item-value characteristics__item-value_age">9 парсек</div>
+                    <div class="characteristics__item-type">Пробег</div>
+                  </div>
+                  <div class="characteristics__item">
+                    <div class="characteristics__item-value">4</div>
+                    <div class="characteristics__item-type">Кол-во мест</div>
+                  </div>
+                </div>
+                <div class="product__price">32 000 руб.</div>
+              </div>
+              <a href="#" class="product__button product__button_sales">Продан</a>
+            </div>
+          </div>
+          <div class="catalog__item">
+            <div class="product" id="5">
+              <div class="product__sale">-40%</div>
+              <a class="product__favorite"></a>
+              <div class="product__image" style="background-image: url(img/rab.jpg)"></div>
+              <div class="product__content">
+                <div class="product__title">Раб-I</div>
+                <div class="characteristics product__info">
+                  <div class="characteristics__item characteristics__item_color">
+                    <div class="characteristics__item-value" style="background: #FB4B54;"></div>
+                    <div class="characteristics__item-type"><div>Корабль</div><div> контрабандистов</div></div>
+                  </div>
+                  <div class="characteristics__item">
+                    <div class="characteristics__item-value characteristics__item-value_age">3 парсек</div>
+                    <div class="characteristics__item-type">Пробег</div>
+                  </div>
+                  <div class="characteristics__item">
+                    <div class="characteristics__item-value">4</div>
+                    <div class="characteristics__item-type">Кол-во мест</div>
+                  </div>
+                </div>
+                <div class="product__price">37 000 руб.</div>
+              </div>
+              <a href="#" class="product__button product__button_sales">Продан</a>
+            </div>
+          </div>
+          <div class="catalog__item">
+            <div class="product" id="6">
+              <div class="product__sale">-40%</div>
+              <a class="product__favorite"></a>
+              <div class="product__image" style="background-image: url(img/vader.jpg)"></div>
+              <div class="product__content">
+                <div class="product__title">Истребитель Вейдера</div>
+                <div class="characteristics product__info">
+                  <div class="characteristics__item characteristics__item_color">
+                    <div class="characteristics__item-value" style="background: #000;"></div>
+                    <div class="characteristics__item-type"><div>Имперский</div><div> флот</div></div>
+                  </div>
+                  <div class="characteristics__item">
+                    <div class="characteristics__item-value characteristics__item-value_age">2 парсек</div>
+                    <div class="characteristics__item-type">Пробег</div>
+                  </div>
+                  <div class="characteristics__item">
+                    <div class="characteristics__item-value">4</div>
+                    <div class="characteristics__item-type">Кол-во мест</div>
+                  </div>
+                </div>
+                <div class="product__price">30 000 руб.</div>
+              </div>
+              <a href="#" class="product__button product__button_sales">Продан</a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="catalog__button-load">Показать еще 20</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="subscription">
+        <div class="subscription__content">
+          <div class="subscription__title">
+            Успей купить!
+          </div>
+          <div class="subscription__text">
+            Подпишись и успей словить все акции
+          </div>
+        </div>
+        <form class="subscription__form">
+          <input class="subscription__input" type="email" name="" value="" placeholder="Email">
+          <button type="submit" class="subscription__button">
+            Подписаться
+          </button>
+          <div class="custom-checkbox subscription__news">
+            <input type="checkbox" class="" id="subscription-news" name="" value="" checked="">
+            <label class="" for="subscription-news">Подписаться на новости</label>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="scroll-btn-block">
+      <a href="#" id="back-to-top" class=""></a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js" charset="UTF-8"></script>
+</body>
+</html>
